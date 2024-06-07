@@ -57,8 +57,10 @@ class _MobileLoginScreenState extends State<MobileLoginScreen> {
                       height: 7.h,
                       width: 25.w,
                       decoration: BoxDecoration(
-                        color: greyShade3,
                         borderRadius: BorderRadius.circular(8.sp),
+                        border: Border.all(
+                          color: Colors.grey,
+                        ),
                       ),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
@@ -86,8 +88,8 @@ class _MobileLoginScreenState extends State<MobileLoginScreen> {
                         contentPadding: EdgeInsets.symmetric(horizontal: 2.w),
                         hintText: 'Mobile number',
                         hintStyle: AppTextStyles.textFieldHintTextStyle,
-                        filled: true,
-                        fillColor: greyShade3,
+                        // filled: true,
+                        // fillColor: greyShade3,
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(8.sp),
                           borderSide: const BorderSide(
