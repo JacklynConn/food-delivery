@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
     return Sizer(builder: (context, _, __) {
       return MaterialApp(
         title: 'Flutter Demo',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(),
         home: const MobileLoginScreen(),
       );
