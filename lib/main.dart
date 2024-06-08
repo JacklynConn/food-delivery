@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery/view/auth/otp_screen.dart';
+import 'package:food_delivery/view/bottom_navigation_bar.dart';
 import 'package:sizer/sizer.dart';
 import '/view/auth/mobile_login_screen.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(),
-        home: const OtpScreen(),
+        home:  const BottomNavigationBarUberEat(),
       );
     });
   }
