@@ -1,12 +1,14 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:food_delivery/view/account/account_screen.dart';
-import 'package:food_delivery/view/auth/otp_screen.dart';
 import 'package:food_delivery/view/bottom_navigation_bar.dart';
-import 'package:food_delivery/view/browse/browse_screen.dart';
 import 'package:sizer/sizer.dart';
-import '/view/auth/mobile_login_screen.dart';
+import 'firebase_options.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(),
-        home:  const BottomNavigationBarUberEat(),
+        home: const BottomNavigationBarUberEat(),
       );
     });
   }

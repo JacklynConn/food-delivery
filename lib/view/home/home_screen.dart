@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
                       color: greyShade3,
-                      borderRadius: BorderRadius.circular(5.sp),
+                      borderRadius: BorderRadius.circular(10.sp),
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     alignment: Alignment.center,
                     decoration: BoxDecoration(
                       color: greyShade3,
-                      borderRadius: BorderRadius.circular(5.sp),
+                      borderRadius: BorderRadius.circular(10.sp),
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
