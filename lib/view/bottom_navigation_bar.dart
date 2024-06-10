@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:food_delivery/utils/colors.dart';
 import 'package:food_delivery/view/account/account_screen.dart';
 import 'package:food_delivery/view/basket/basket_screen.dart';
 import 'package:food_delivery/view/browse/browse_screen.dart';
@@ -29,7 +30,7 @@ class _BottomNavigationBarUberEatState
           duration: Duration(milliseconds: 200),
         ),
         stateManagement: true,
-        backgroundColor: Colors.white,
+        backgroundColor: transparent,
         handleAndroidBackButtonPress: true,
         controller: controller,
         resizeToAvoidBottomInset: true,

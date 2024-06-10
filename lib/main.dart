@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery/view/account/account_screen.dart';
 import 'package:food_delivery/view/auth/otp_screen.dart';
 import 'package:food_delivery/view/bottom_navigation_bar.dart';
 import 'package:food_delivery/view/browse/browse_screen.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(),
-        home:  const BrowseScreen(),
+        home:  const BottomNavigationBarUberEat(),
       );
     });
   }

@@ -40,7 +40,7 @@ class _BrowseScreenState extends State<BrowseScreen> {
         body: ListView(
           padding: EdgeInsets.symmetric(horizontal: 4.w),
           children: [
-            SizedBox(height: 2.h),
+            SizedBox(height: 5.h),
             Text(
               'All categories',
               style: AppTextStyles.body16,
