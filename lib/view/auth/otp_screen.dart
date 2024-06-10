@@ -7,14 +7,14 @@ import 'package:food_delivery/utils/textStyles.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 import 'package:sizer/sizer.dart';
 
-class OtpScreen extends StatefulWidget {
-  const OtpScreen({super.key});
+class OTPScreen extends StatefulWidget {
+  const OTPScreen({super.key});
 
   @override
-  State<OtpScreen> createState() => _OtpScreenState();
+  State<OTPScreen> createState() => _OTPScreenState();
 }
 
-class _OtpScreenState extends State<OtpScreen> {
+class _OTPScreenState extends State<OTPScreen> {
   TextEditingController otpController = TextEditingController();
   StreamController<ErrorAnimationType> errorController =
       StreamController<ErrorAnimationType>();
